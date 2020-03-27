@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block heading %} Second Page {% endblock %}
+{% block body %}
+    <p>
+        In a SPA, all necessary HTML, JavaScript, and CSS code is either retrieved by the browser with a single page load,or
+        the appropriate resources are dynamically loaded and added to the page as necessary, usually in response to user actions.
+        The page does not reload at any point in the process, nor does it control transfer to another page, although the location hash or
+        the HTML5 History API can be used to provide the perception and navigability of separate logical pages in the application.
+    </p>
+    <a href="{{  url_for('index') }}">
+        Go back
+    </a>
+    <p>     </p>
+    <a href="{{  url_for('thirdpage') }}">
+        Go next
+    </a>
+{% endblock %}

@@ -1,0 +1,5 @@
+.DS_Store
+.idea
+../Flask-Web-Developement/.idea/
+venv/
+/.DS_Store
